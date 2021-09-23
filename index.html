@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="topnavbar">
                   <div class="navbar-nav ml-auto my-auto">
                     <a class="nav-item nav-link mx-lg-4 text-dark" href="#first-sec">Home</span></a>
-                    <a class="nav-item nav-link mx-lg-4 text-dark" href="#">About</a>
+                    <a class="nav-item nav-link mx-lg-4 text-dark" href="#about">About</a>
                     <a class="nav-item nav-link mx-lg-4 text-dark" href="#portfolio">Protfolio</a>
                     <a class="nav-item nav-link btn btn-secondary text-white px-2 mr-lg-4" id="top-icon" href="mailto:dominiclai1983@gmail.com" role="button">Contact Me</a>
                 </div>
@@ -125,12 +125,23 @@
         </div>
         <hr>
         <!-- About -->
-        <div class="about">
+        <div id="about">
           <h2 class="text-center text-muted mb-4 mt-5">About Dominic Lai</h2>
-            <div class="container" id="bottom">
+            <div class="container">
               <div class="row my-3">
-                <div class="col-12 col-lg-4"><img class="img-fluid" src='./image/bottom.png' /></div>
-                <div class="col-12 col-lg-8 d-flex justify-content-center">Dominic gets into Internet since 12 and always believe that Internet is the greatest innovation of human beings. Attempted to code for few times along the way but this is the only time that I do believe I could tackle the idea of programming. Currently, built a career in ecommerce and wish to swap to tech industry one day. </div>
+                <div class="col-12">
+                  <div class="row d-flex align-items-center no-gutters">
+                    <div class="col-3 pr-1">
+                      <img class="img-fluid w-100 rounded" src="./image/bottom.png">
+                    </div>
+                    <div class="col-9 pl-1">
+                      <p class="text-justify">Dominic gets into Internet since 12 and always believe that Internet is the greatest innovation of human beings. Attempted learning to code for few times along the way but this is the only time that he believes that he could tackle the idea of programming. Currently, built a career in ecommerce and wish to swap to tech industry one day. </p>
+                    </div>
+                  </div>
+                <!--
+                <img src='./image/bottom.png' /></div>
+                <div class="col-12 col-sm-8 d-flex justify-content-center">Dominic gets into Internet since 12 and always believe that Internet is the greatest innovation of human beings. Attempted learning to code for few times along the way but this is the only time that I do believe I could tackle the idea of programming. Currently, built a career in ecommerce and wish to swap to tech industry one day. </div>
+                -->
               </div>
             </div>
         </div>
@@ -138,15 +149,17 @@
         <footer>
           <div class="row bg-secondary py-3">
             <div class="col-12 col-md-6 d-flex pl-5">
-              <div class="d-flex justify-content-center text-white">©Dominic Lai
-              </div>
+              <a href="#first-sec">
+                <div class="d-flex justify-content-center text-white">©Dominic Lai
+                </div>
+              </a>
             </div>
             <div class="col-12 col-md-6 justify-content-end d-flex pr-5">
               <div class="d-flex justify-content-center">
-                <a class="news-icon" href="#"><i class="fab fa-twitter fa-lg mx-2"></i></a>
-                <a class="news-icon" href="#"><i class="fab fa-instagram fa-lg mx-2"></i></a>
-                <a class="news-icon" href="#"><i class="fab fa-linkedin fa-lg mx-2"></i></a>
-                <a class="news-icon" href="#"><i class="fab fa-facebook-f fa-lg mx-2"></i></a>
+                <a class="news-icon" href="https://www.twitter.com" target="_blink"><i class="fab fa-twitter fa-lg mx-2"></i></a>
+                <a class="news-icon" href="https://www.instagram.com" target="_blink"><i class="fab fa-instagram fa-lg mx-2"></i></a>
+                <a class="news-icon" href="https://www.linkedin.com/in/dominiclaihk/" target="_blink"><i class="fab fa-linkedin fa-lg mx-2"></i></a>
+                <a class="news-icon" href="https://www.facebook.com" target="_blink"><i class="fab fa-facebook-f fa-lg mx-2"></i></a>
               </div>
               </div>
             </div>

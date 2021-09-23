@@ -1,3 +1,5 @@
+/* navigator bar */
+
 .top-icon{
     color: #fc2803;
 }
@@ -9,4 +11,18 @@
 
 .navbar-nav > #top-icon {
     width: fit-content;
+}
+
+/*first section*/
+#first-sec{
+    background-image: url(./image/first-sec.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+@media (min-width: 1200px) {
+    #first-sec{
+      height: 75vh;
+      min-height: 350px;
+    }
 }

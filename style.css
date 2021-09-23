@@ -1,7 +1,7 @@
 /* navigator bar */
 
 .top-icon{
-    color: #fc2803;
+    color: rgba(75, 75, 75, 0.9);
 }
 
 #topnavbar a:not(#top-icon):hover{
@@ -15,19 +15,44 @@
 
 /*first section*/
 #first-sec{
-    background-image: url(./image/first-sec.jpg);
-    background-size: cover;
-    background-position: center bottom;
+    position: relative; 
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
+#first-sec::before{
+    content: "";
+    background-image: url(./image/first-sec.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.89;
+}
+
+/*
 #first-sec{
     padding-top: 125px;
     padding-bottom: 125px;
-  }
+}*/
 
 @media (min-width: 1200px) {
     #first-sec{
       height: 75vh;
       min-height: 350px;
     }
+}
+
+#first-sec p{
+    color: rgb(65,65,65)
+}
+
+.first-button{
+    width: 118px !important;
 }

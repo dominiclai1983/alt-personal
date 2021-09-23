@@ -74,3 +74,12 @@
     background-size: cover;
     background-position: center;
 }
+
+#bottom .container{
+    max-width: 550px;
+}
+
+/* footer */
+.news-icon i{
+    color: white;
+}

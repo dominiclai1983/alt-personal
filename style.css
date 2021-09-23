@@ -1,0 +1,12 @@
+.top-icon{
+    color: #fc2803;
+}
+
+#topnavbar a:not(#top-icon):hover{
+    background-color: rgba(220, 220, 220, 0.3);
+    border-radius: 5px;
+}
+
+.navbar-nav > #top-icon {
+    width: fit-content;
+}

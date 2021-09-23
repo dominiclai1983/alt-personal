@@ -20,6 +20,11 @@
     background-position: center bottom;
 }
 
+#first-sec{
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+
 @media (min-width: 1200px) {
     #first-sec{
       height: 75vh;

@@ -1,3 +1,9 @@
+@media (min-width:1200px){
+    .container-fluid{
+        max-width: 1750px;
+    }
+}
+
 /* navigator bar */
 
 .top-icon{
@@ -23,7 +29,6 @@
     justify-content: center;
 }
 
-
 #first-sec::before{
     content: "";
     background-image: url(./image/first-sec.jpg);
@@ -35,12 +40,6 @@
     left: 0px;
     opacity: 0.89;
 }
-
-/*
-#first-sec{
-    padding-top: 125px;
-    padding-bottom: 125px;
-}*/
 
 @media (min-width: 1200px) {
     #first-sec{
@@ -56,3 +55,14 @@
 .first-button{
     width: 118px !important;
 }
+
+/* Protofilo */
+.tech{
+    font-size: 14px;
+}
+
+.aspectRatioBox {
+    padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+    background-size: cover;
+    background-position: center;
+  }

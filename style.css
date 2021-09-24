@@ -1,7 +1,12 @@
-@media (min-width:1200px){
-    .container-fluid{
-        max-width: 1750px;
+/* ----------- Container ----------- */
+@media (min-width: 1080px) {
+    .with-width{
+      max-width: 1600px;
     }
+}
+
+.container{
+    max-width: 750px;
 }
 
 /* navigator bar */
@@ -73,10 +78,6 @@
     padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
     background-size: cover;
     background-position: center;
-}
-
-.container{
-    max-width: 750px;
 }
 
 /* footer */
